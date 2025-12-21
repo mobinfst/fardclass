@@ -1,0 +1,52 @@
+﻿@using aminansari.Dto
+@model ProductDto
+
+
+
+<h1>افزودن محصولات ها </h1>
+<input asp-for="Id" hidden />
+<form action="/product/Update" method="post">
+
+
+    <label>نام </label>
+    <input asp-for="Name" />
+    <br />
+
+    <label>توضیحات </label>
+    <input asp-for="Description" />
+
+    <label>تعداد </label>
+    <input asp-for="count" />
+
+    <label>قیمت </label>
+    <input asp-for="Price" />
+
+
+    <label>نام دسته بندی  </label>
+
+    <select asp-for="CategoryId">
+        @foreach (var item in Model.Categories)
+        {
+
+            <option value="@item.Id"> @item.Name-@item.Description</option>
+
+        }
+
+
+
+
+    </select>
+
+
+
+
+
+
+    <button> ثبت موارد </button>
+
+
+
+
+
+
+</form>

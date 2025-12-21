@@ -1,0 +1,45 @@
+﻿@using aminansari.Dto
+@model List<ProductDto>
+
+
+
+<div class="container">
+    <h2>category List</h2>
+    <a href="/product/add" class="btn btn-success">Add  Category</a>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Count</th>
+                <th>Price</th>
+                <th>category name </th>
+                <th>Category Description</th>
+                <th>#</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>@item.count</td>
+                    <td>@item.Price</td>
+                    <td>@item.CategoriesName</td>
+                    <td>@item.CategoriesDescription</td>
+                    <td>
+                        <a href="/Product/update?id=@item.Id" class="btn btn-warning">Edit</a>
+                        <a href="/Product/Delete?id=@item.Id" class="btn btn-danger" onclick="return confirm('آیا مطمئن هستید؟')">Delete</a>
+                    </td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>

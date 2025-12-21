@@ -1,0 +1,28 @@
+﻿    @using aminansari.Dto
+    @model CategoryDto
+
+    <h1>افزودن دسته بندی ها </h1>
+
+    <form action="/category/add" method="post">
+
+
+        <label>نام </label>
+        <input asp-for="Name" />
+        <br />
+
+        <label>توضیحات </label>
+        <input asp-for="Description" />
+
+
+
+
+
+
+        <button> ثبت موارد </button>
+
+
+
+
+
+
+    </form>
