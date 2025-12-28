@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abbas\\Desktop\\aminansari\\aminansari\\aminansari.csproj": {}
+    "C:\\Users\\Abbas\\Desktop\\fardclass\\aminansari\\aminansari.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abbas\\Desktop\\aminansari\\aminansari\\aminansari.csproj": {
+    "C:\\Users\\Abbas\\Desktop\\fardclass\\aminansari\\aminansari.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abbas\\Desktop\\aminansari\\aminansari\\aminansari.csproj",
+        "projectUniqueName": "C:\\Users\\Abbas\\Desktop\\fardclass\\aminansari\\aminansari.csproj",
         "projectName": "aminansari",
-        "projectPath": "C:\\Users\\Abbas\\Desktop\\aminansari\\aminansari\\aminansari.csproj",
+        "projectPath": "C:\\Users\\Abbas\\Desktop\\fardclass\\aminansari\\aminansari.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abbas\\Desktop\\aminansari\\aminansari\\obj\\",
+        "outputPath": "C:\\Users\\Abbas\\Desktop\\fardclass\\aminansari\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

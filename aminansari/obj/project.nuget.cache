@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZlCl2Lkh0KA=",
+  "dgSpecHash": "Wo/dtm5u96I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abbas\\Desktop\\aminansari\\aminansari\\aminansari.csproj",
+  "projectFilePath": "C:\\Users\\Abbas\\Desktop\\fardclass\\aminansari\\aminansari.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
